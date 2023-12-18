@@ -1,5 +1,7 @@
 Esper Changelog
 ===================
+Changes in version 8.9.0-antlr4
+ - Updated antlr to version 4.10.1 to support new updated Parser Version 4
 
 Changes in version 8.9.0
 ------------------------
@@ -246,7 +248,7 @@ Changes in version 7.1.0
   - Bug fix release with no significant new functionality
   - Fixed issue SNU-737-77471 Byte code generation for filter boolean expressions can take place at runtime and degrade performance
   - Fixed issue VYZ-3431-6686 JMSOutputAdapter ClassCastException when HA enabled
-  - Fixed issue CPY-657-70575 FromClause-model produces an extra 'outer'ù in "toEPL" for joins
+  - Fixed issue CPY-657-70575 FromClause-model produces an extra 'outer'ÔøΩ in "toEPL" for joins
   - Fixed issue KEC-614-81453 An exception thrown when evaluating rhs for variable-set does not invoke exception handler
   - Fixed issue #99 Returning a list from an expression declaration using Case Control Flow with multiple conditions
   - Fixed issue ZTB-991-52280 Deployment API fails compile for script expression returning array
@@ -465,7 +467,7 @@ Changes in version 5.1.0
     - Tables allow multiple statements to aggregate into the same state (we call this co-aggregation) 
     - Tables allow statements to co-locate aggregation state, update-in-place data and event data conveniently
     - Tables can be accessed using a convenient key-based expression, as well as in joins, subqueries etc. comparably to named windows
-  - Support for the Countñmin sketch (or CM sketch) probabilistic sub-linear space streaming algorithm and approximate streaming Top-K
+  - Support for the CountÔøΩmin sketch (or CM sketch) probabilistic sub-linear space streaming algorithm and approximate streaming Top-K
   - Support for the new "countever" aggregation function that returns a count of events ever regardless of data windows
   - Additional API to query context partition instance count
   - Audit logging for context partitions
